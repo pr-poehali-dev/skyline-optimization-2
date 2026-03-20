@@ -53,6 +53,15 @@ export function Footer() {
               <img src="https://max.ru/favicon.ico" alt="MAX" className="w-4 h-4" />
               Написать в MAX
             </a>
+            <a
+              href="https://vk.com/cma.remont.surgut"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium"
+            >
+              <img src="https://vk.com/favicon.ico" alt="ВКонтакте" className="w-4 h-4" />
+              Группа ВКонтакте
+            </a>
           </div>
         </div>
 

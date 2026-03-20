@@ -50,9 +50,9 @@ export function Navbar() {
               {link.name}
             </a>
           ))}
-          <button className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-white/90 transition-colors">
+          <a href="tel:+79995109840" className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-white/90 transition-colors">
             Вызвать мастера
-          </button>
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -82,9 +82,9 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <button className="mt-4 bg-white text-black px-8 py-3 rounded-full text-lg font-semibold">
+              <a href="tel:+79995109840" className="mt-4 bg-white text-black px-8 py-3 rounded-full text-lg font-semibold">
                 Вызвать мастера
-              </button>
+              </a>
             </div>
           </motion.div>
         )}

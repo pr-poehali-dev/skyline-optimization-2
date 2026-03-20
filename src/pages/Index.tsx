@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar"
 import { Hero } from "@/components/Hero"
 import { Services } from "@/components/Services"
 import { Work } from "@/components/Work"
+import { Pricing } from "@/components/Pricing"
 import { Footer } from "@/components/Footer"
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <Hero />
       <Services />
       <Work />
+      <Pricing />
 
       {/* Call to Action Section */}
       <section id="contact" className="py-32 relative">

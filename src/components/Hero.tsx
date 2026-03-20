@@ -62,9 +62,15 @@ export function Hero() {
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-white opacity-0 group-hover:opacity-100 transition-opacity" />
           </a>
-          <button className="px-8 py-4 glass rounded-full font-semibold text-lg text-white hover:bg-white/10 transition-all hover:scale-105">
-            Узнать стоимость
-          </button>
+          <a
+            href="https://max.ru/chat/79995109840"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-4 glass rounded-full font-semibold text-lg text-white hover:bg-white/10 transition-all hover:scale-105"
+          >
+            <img src="https://max.ru/favicon.ico" alt="MAX" className="w-5 h-5" />
+            Написать в MAX
+          </a>
         </motion.div>
       </div>
 

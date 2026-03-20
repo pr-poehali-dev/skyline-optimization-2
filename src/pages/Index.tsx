@@ -22,7 +22,7 @@ const Index = () => {
             <span className="text-gradient">скидку 20%</span> на первый ремонт?
           </h2>
           <p className="text-xl text-white/60 mb-12 max-w-2xl mx-auto">
-            Позвоните нам и получите скидку 20% на первый ремонт. Выезд мастера в день обращения.
+            Гарантируем что ремонтные работы избавят вас от поломок на долгое время! Выезд мастера в день обращения!
           </p>
           <a href="tel:+79995109840" className="px-10 py-5 bg-white text-black rounded-full font-bold text-xl hover:scale-105 transition-transform shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)] inline-block">
             Вызвать мастера

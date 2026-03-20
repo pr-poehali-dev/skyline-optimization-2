@@ -22,11 +22,11 @@ const Index = () => {
             <span className="text-gradient">скидку 20%</span> на первый ремонт?
           </h2>
           <p className="text-xl text-white/60 mb-12 max-w-2xl mx-auto">
-            Давайте вместе построим нечто невероятное. Ваше видение, наша экспертиза.
+            Позвоните нам и получите скидку 20% на первый ремонт. Выезд мастера в день обращения.
           </p>
-          <button className="px-10 py-5 bg-white text-black rounded-full font-bold text-xl hover:scale-105 transition-transform shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]">
-            Начать проект
-          </button>
+          <a href="tel:+79995109840" className="px-10 py-5 bg-white text-black rounded-full font-bold text-xl hover:scale-105 transition-transform shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)] inline-block">
+            Вызвать мастера
+          </a>
         </div>
 
         {/* Background Gradient for CTA */}

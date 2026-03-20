@@ -45,7 +45,7 @@ export function Footer() {
             </a>
             <p className="text-white/40 mt-2 text-sm">Николай</p>
             <a
-              href="https://i.max.ru/chat/+79995109840"
+              href="https://max.ru/u/f9LHodD0cOKt2hMEYZRODwlXwAQI7dDzcxuV6p-stiu0U9t4nXVbG8abp0I"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium"

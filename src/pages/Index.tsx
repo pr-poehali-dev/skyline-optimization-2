@@ -43,9 +43,18 @@ const Index = () => {
               <p className="text-2xl font-bold tracking-widest text-blue-300">СмаПервый</p>
             </div>
 
-            <div>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="tel:+79995109840" className="px-10 py-5 bg-white text-black rounded-full font-bold text-xl hover:scale-105 transition-transform shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)] inline-block">
                 Вызвать мастера
+              </a>
+              <a
+                href="https://max.ru/u/f9LHodD0cOKt2hMEYZRODwlXwAQI7dDzcxuV6p-stiu0U9t4nXVbG8abp0I"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-10 py-5 rounded-full border border-white/20 hover:bg-white/10 transition-all hover:scale-105 font-bold text-xl"
+              >
+                <img src="https://max.ru/favicon.ico" alt="MAX" className="w-5 h-5" />
+                Написать в MAX
               </a>
             </div>
           </div>

@@ -44,6 +44,15 @@ export function Footer() {
               +7 (999) 510-98-40
             </a>
             <p className="text-white/40 mt-2 text-sm">Николай</p>
+            <a
+              href="https://max.ru/chat/79995109840"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium"
+            >
+              <img src="https://max.ru/favicon.ico" alt="MAX" className="w-4 h-4" />
+              Написать в MAX
+            </a>
           </div>
         </div>
 

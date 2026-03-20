@@ -13,7 +13,7 @@ const cases = [
   {
     title: "Bosch SMS40D02",
     category: "Посудомоечная машина",
-    image: "https://cdn.poehali.dev/templates/liquid-glass-agency/meditation-app-interface-soft-gradients.jpg",
+    image: "https://cdn.poehali.dev/projects/41ee256c-ef61-4132-bc80-411c69692e28/files/acf7475f-7d36-4e1b-89dc-ffa361573346.jpg",
     color: "from-purple-500/20 to-pink-500/20",
     description: "Течь из-под машины — треснул сальник помпы. Выехали в тот же день, заменили деталь на оригинальную. Машина работает как новая.",
     tags: ["Ремонт помпы", "Выезд в день"],

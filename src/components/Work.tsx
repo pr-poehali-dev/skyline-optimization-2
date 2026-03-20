@@ -5,7 +5,7 @@ const cases = [
   {
     title: "Samsung WW60J4000",
     category: "Стиральная машина",
-    image: "https://cdn.poehali.dev/projects/41ee256c-ef61-4132-bc80-411c69692e28/bucket/3b3057f5-a38e-4989-b502-e1342e75a8bf.jpg",
+    image: "https://cdn.poehali.dev/projects/41ee256c-ef61-4132-bc80-411c69692e28/bucket/29c93aeb-b3f1-4f47-bb86-e143e37534a6.jpg",
     color: "from-blue-500/20 to-cyan-500/20",
     description: "Машина не отжимала — вышел из строя модуль управления. Провели диагностику, заменили плату за 2 часа. Клиент получил гарантию на 12 месяцев.",
     tags: ["Замена платы", "Гарантия 12 мес."],

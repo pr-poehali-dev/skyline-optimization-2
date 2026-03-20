@@ -38,11 +38,12 @@ export function Footer() {
             <h4 className="font-semibold mb-6">Позвоните нам</h4>
             <p className="text-white/60 mb-4">Сломалась техника? Вызовите мастера!</p>
             <a
-              href="tel:+79000000000"
+              href="tel:+79995109840"
               className="text-xl font-medium hover:text-blue-400 transition-colors"
             >
-              +7 (900) 000-00-00
+              +7 (999) 510-98-40
             </a>
+            <p className="text-white/40 mt-2 text-sm">Николай</p>
           </div>
         </div>
 

@@ -54,14 +54,7 @@ export function Work() {
               Реальные случаи из нашей практики — ремонтируем быстро и надёжно.
             </motion.p>
           </div>
-          <motion.button
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="px-6 py-3 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium"
-          >
-            Все случаи
-          </motion.button>
+
         </div>
 
         <div className="space-y-20">

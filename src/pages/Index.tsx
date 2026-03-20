@@ -18,8 +18,8 @@ const Index = () => {
       <section id="contact" className="py-32 relative">
         <div className="container mx-auto px-6 text-center relative z-10">
           <h2 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight">
-            Готовы создать <br />
-            <span className="text-gradient">будущее?</span>
+            Готовы получить <br />
+            <span className="text-gradient">скидку 20%</span> на первый ремонт?
           </h2>
           <p className="text-xl text-white/60 mb-12 max-w-2xl mx-auto">
             Давайте вместе построим нечто невероятное. Ваше видение, наша экспертиза.

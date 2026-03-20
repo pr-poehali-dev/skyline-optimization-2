@@ -7,47 +7,47 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           <div>
             <a href="/" className="text-2xl font-bold tracking-tighter mb-6 block">
-              Призма<span className="text-blue-400">.</span>
+              МастерФикс<span className="text-blue-400">.</span>
             </a>
             <p className="text-white/50 leading-relaxed">
-              Создаем цифровой опыт, объединяющий искусство, технологии и человеческую связь.
+              Профессиональный ремонт бытовой техники с гарантией. Выезд мастера в день обращения.
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold mb-6">Навигация</h4>
             <ul className="space-y-4 text-white/60">
-              <li><a href="#work" className="hover:text-white transition-colors">Проекты</a></li>
               <li><a href="#services" className="hover:text-white transition-colors">Услуги</a></li>
+              <li><a href="#work" className="hover:text-white transition-colors">Наши работы</a></li>
               <li><a href="#about" className="hover:text-white transition-colors">О нас</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">Контакты</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-6">Социальные сети</h4>
+            <h4 className="font-semibold mb-6">Мы ремонтируем</h4>
             <ul className="space-y-4 text-white/60">
-              <li><a href="#" className="hover:text-white transition-colors">Telegram</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">VK</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Behance</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Dribbble</a></li>
+              <li><span>Стиральные машины</span></li>
+              <li><span>Посудомоечные машины</span></li>
+              <li><span>Кофемашины</span></li>
+              <li><span>Мелкая бытовая техника</span></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-6">Напишите нам</h4>
-            <p className="text-white/60 mb-4">Есть проект на примете?</p>
+            <h4 className="font-semibold mb-6">Позвоните нам</h4>
+            <p className="text-white/60 mb-4">Сломалась техника? Вызовите мастера!</p>
             <a
-              href="mailto:hello@prizma.agency"
+              href="tel:+79000000000"
               className="text-xl font-medium hover:text-blue-400 transition-colors"
             >
-              hello@prizma.agency
+              +7 (900) 000-00-00
             </a>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/5 text-sm text-white/40">
-          <p>&copy; 2025 Призма. Все права защищены.</p>
+          <p>&copy; 2025 МастерФикс. Все права защищены.</p>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Политика конфиденциальности</a>
             <a href="#" className="hover:text-white transition-colors">Условия использования</a>

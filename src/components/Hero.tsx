@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { ArrowRight } from 'lucide-react'
+import Icon from '@/components/ui/icon'
 
 export function Hero() {
   return (
@@ -23,7 +24,7 @@ export function Hero() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
             </span>
             <span className="text-xs font-medium text-white/80 uppercase tracking-wider">
-              Открыты для новых проектов
+              Выезд мастера в день обращения
             </span>
           </div>
         </motion.div>
@@ -34,9 +35,9 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tighter mb-8 text-gradient"
         >
-          Цифровая
+          Ремонт
           <br />
-          Алхимия
+          техники
         </motion.h1>
 
         <motion.p
@@ -45,8 +46,8 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          Мы превращаем сложные идеи в интуитивные цифровые продукты.
-          Объединяем искусство, технологии и стратегию для создания будущего.
+          Профессиональный ремонт стиральных и посудомоечных машин, а также мелкой бытовой техники.
+          Быстро, надёжно и с гарантией до 1 года.
         </motion.p>
 
         <motion.div
@@ -57,12 +58,12 @@ export function Hero() {
         >
           <button className="group relative px-8 py-4 bg-white text-black rounded-full font-semibold text-lg overflow-hidden transition-all hover:scale-105">
             <span className="relative z-10 flex items-center gap-2">
-              Наши работы <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              Вызвать мастера <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-white opacity-0 group-hover:opacity-100 transition-opacity" />
           </button>
           <button className="px-8 py-4 glass rounded-full font-semibold text-lg text-white hover:bg-white/10 transition-all hover:scale-105">
-            Связаться с нами
+            Узнать стоимость
           </button>
         </motion.div>
       </div>

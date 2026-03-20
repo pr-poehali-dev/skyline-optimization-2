@@ -13,8 +13,8 @@ export function Navbar() {
   })
 
   const navLinks = [
-    { name: "Проекты", href: "#work" },
     { name: "Услуги", href: "#services" },
+    { name: "Наши работы", href: "#work" },
     { name: "О нас", href: "#about" },
     { name: "Контакты", href: "#contact" },
   ]
@@ -36,7 +36,7 @@ export function Navbar() {
         )}
       >
         <a href="/" className="text-2xl font-bold tracking-tighter relative z-50">
-          Призма<span className="text-blue-400">.</span>
+          МастерФикс<span className="text-blue-400">.</span>
         </a>
 
         {/* Desktop Menu */}
@@ -51,7 +51,7 @@ export function Navbar() {
             </a>
           ))}
           <button className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-white/90 transition-colors">
-            Обсудить проект
+            Вызвать мастера
           </button>
         </div>
 
@@ -83,7 +83,7 @@ export function Navbar() {
                 </a>
               ))}
               <button className="mt-4 bg-white text-black px-8 py-3 rounded-full text-lg font-semibold">
-                Обсудить проект
+                Вызвать мастера
               </button>
             </div>
           </motion.div>

@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           <div>
             <a href="/" className="text-2xl font-bold tracking-tighter mb-6 block">
-              МастерФикс<span className="text-blue-400">.</span>
+              СмаСервис<span className="text-blue-400">.</span>
             </a>
             <p className="text-white/50 leading-relaxed">
               Профессиональный ремонт бытовой техники с гарантией. Выезд мастера в день обращения.
@@ -57,7 +57,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/5 text-sm text-white/40">
-          <p>&copy; 2025 МастерФикс. Все права защищены.</p>
+          <p>&copy; 2025 СмаСервис. Все права защищены.</p>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Политика конфиденциальности</a>
             <a href="#" className="hover:text-white transition-colors">Условия использования</a>

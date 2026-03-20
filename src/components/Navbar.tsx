@@ -36,7 +36,7 @@ export function Navbar() {
         )}
       >
         <a href="/" className="text-2xl font-bold tracking-tighter relative z-50">
-          МастерФикс<span className="text-blue-400">.</span>
+          СмаСервис<span className="text-blue-400">.</span>
         </a>
 
         {/* Desktop Menu */}

@@ -21,7 +21,7 @@ const cases = [
   {
     title: "Delonghi ECAM",
     category: "Кофемашина",
-    image: "https://cdn.poehali.dev/templates/liquid-glass-agency/space-website-interface-futuristic.jpg",
+    image: "https://cdn.poehali.dev/projects/41ee256c-ef61-4132-bc80-411c69692e28/files/5a42cda7-f28b-46b0-9104-fa5cea903393.jpg",
     color: "from-orange-500/20 to-red-500/20",
     description: "Кофемашина перестала молоть зерна — засор жерновов и износ шестерёнки. Прочистка и замена запчасти вернули любимый кофе на место.",
     tags: ["Мелкая техника", "Диагностика бесплатно"],

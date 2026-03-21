@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { motion, useScroll, useMotionValueEvent } from "framer-motion"
-import { Menu, X } from 'lucide-react'
+
 import { cn } from "@/lib/utils"
 import { LeadFormModal } from "@/components/LeadFormModal"
 
@@ -64,12 +64,12 @@ export function Navbar() {
             </a>
           </div>
 
-          {/* Mobile Menu Toggle */}
+          {/* Mobile Button */}
           <button
-            className="md:hidden relative z-50 text-white"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="md:hidden relative z-50 bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold"
+            onClick={() => setIsModalOpen(true)}
           >
-            {isMobileMenuOpen ? <X /> : <Menu />}
+            Оставить заявку
           </button>
 
           {/* Mobile Menu Overlay */}

@@ -98,7 +98,7 @@ export function LeadFormModal({ open, onClose }: LeadFormModalProps) {
               <Textarea
                 value={description}
                 onChange={e => setDescription(e.target.value)}
-                placeholder="Не заряжается телефон, разбит экран..."
+                placeholder="Опишите вашу проблему..."
                 rows={3}
                 className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-blue-400 resize-none"
               />

@@ -15,7 +15,7 @@ export function Navbar() {
   const navLinks = [
     { name: "Услуги", href: "#services" },
     { name: "Наши работы", href: "#work" },
-    { name: "О нас", href: "#pricing" },
+    { name: "Прайс", href: "#pricing" },
     { name: "Акция 20%", href: "#contact" },
   ]
 

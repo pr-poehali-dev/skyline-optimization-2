@@ -6,6 +6,7 @@ import { Services } from "@/components/Services"
 import { Work } from "@/components/Work"
 import { Pricing } from "@/components/Pricing"
 import { Footer } from "@/components/Footer"
+import { Reviews } from "@/components/Reviews"
 import { LeadFormModal } from "@/components/LeadFormModal"
 
 const Index = () => {
@@ -76,6 +77,7 @@ const Index = () => {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-gradient-to-t from-blue-900/20 to-transparent pointer-events-none" />
       </section>
 
+      <Reviews />
       <Footer />
     </main>
   )

@@ -54,9 +54,9 @@ export function Navbar() {
             </button>
             <a
               href="tel:+79995109840"
-              className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-white/90 transition-colors whitespace-nowrap"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-semibold whitespace-nowrap"
             >
-              Вызвать мастера
+              📞 Вызвать мастера
             </a>
           </div>
 

@@ -109,7 +109,7 @@ export function Pricing() {
                   href="tel:+79995109840"
                   className="mt-8 w-full flex items-center justify-center gap-2 py-3 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-medium"
                 >
-                  Вызвать мастера
+                  📞 Вызвать мастера
                 </a>
               </GlassCard>
             </motion.div>

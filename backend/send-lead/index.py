@@ -1,8 +1,7 @@
 import json
 import os
 import urllib.request
-
-CHAT_ID = ""
+import urllib.error
 
 
 def handler(event: dict, context) -> dict:
@@ -28,42 +27,44 @@ def handler(event: dict, context) -> dict:
         return {
             'statusCode': 400,
             'headers': {'Access-Control-Allow-Origin': '*'},
-            'body': {'error': 'Имя и телефон обязательны'}
+            'body': json.dumps({'error': 'Имя и телефон обязательны'})
         }
 
-    token = os.environ['TELEGRAM_BOT_TOKEN']
+    token = os.environ.get('TELEGRAM_BOT_TOKEN', '').strip()
+    chat_id = os.environ.get('TELEGRAM_CHAT_ID', '').strip() or '8299428112'
+
+    print(f"[DEBUG] token length: {len(token)}, chat_id: {chat_id}")
 
     message = (
-        f"📋 Новая заявка с сайта!\n\n"
-        f"👤 Имя: {name}\n"
-        f"📞 Телефон: {phone}\n"
+        f"Новая заявка с сайта!\n\n"
+        f"Имя: {name}\n"
+        f"Телефон: {phone}\n"
     )
     if description:
-        message += f"📝 Описание: {description}\n"
-
-    # Получаем chat_id владельца через getUpdates или используем числовой ID
-    # Сначала пробуем отправить по номеру телефона через username
-    chat_id = os.environ.get('TELEGRAM_CHAT_ID', '') or '8299428112'
-
-    if not chat_id:
-        return {
-            'statusCode': 500,
-            'headers': {'Access-Control-Allow-Origin': '*'},
-            'body': {'error': 'TELEGRAM_CHAT_ID не задан'}
-        }
+        message += f"Описание: {description}\n"
 
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     data = json.dumps({
-        'chat_id': chat_id,
+        'chat_id': int(chat_id),
         'text': message
     }).encode('utf-8')
 
-    req = urllib.request.Request(url, data=data, headers={'Content-Type': 'application/json'})
-    with urllib.request.urlopen(req) as resp:
-        result = json.loads(resp.read())
+    try:
+        req = urllib.request.Request(url, data=data, headers={'Content-Type': 'application/json'})
+        with urllib.request.urlopen(req) as resp:
+            result = json.loads(resp.read())
+        print(f"[DEBUG] Telegram response: {result}")
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode('utf-8')
+        print(f"[ERROR] Telegram HTTP {e.code}: {error_body}")
+        return {
+            'statusCode': 500,
+            'headers': {'Access-Control-Allow-Origin': '*'},
+            'body': json.dumps({'error': f'Telegram error: {error_body}'})
+        }
 
     return {
         'statusCode': 200,
         'headers': {'Access-Control-Allow-Origin': '*'},
-        'body': {'ok': True}
+        'body': json.dumps({'ok': True})
     }

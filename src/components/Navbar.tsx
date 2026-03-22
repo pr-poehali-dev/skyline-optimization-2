@@ -16,7 +16,7 @@ export function Navbar() {
     { name: "Услуги", href: "#services" },
     { name: "Наши работы", href: "#work" },
     { name: "Прайс", href: "#pricing" },
-    { name: "Акция 20%", href: "#promo" },
+    { name: "Акция 20%", href: "#contact" },
   ]
 
   return (

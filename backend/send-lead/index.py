@@ -30,7 +30,7 @@ def handler(event: dict, context) -> dict:
             'body': json.dumps({'error': 'Имя и телефон обязательны'})
         }
 
-    token = os.environ.get('TELEGRAM_BOT_TOKEN', '').strip()
+    token = os.environ.get('TELEGRAM_BOT_TOKEN', '').strip() or '8481736654:AAEB51moANHjGgAe7uNuweduEi-vpyurAdY'
     chat_id = os.environ.get('TELEGRAM_CHAT_ID', '').strip() or '8299428112'
 
     print(f"[DEBUG] token length: {len(token)}, chat_id: {chat_id}")

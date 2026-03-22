@@ -2,7 +2,7 @@ import json
 import os
 import urllib.request
 
-CHAT_ID = "+79995109840"
+CHAT_ID = ""
 
 
 def handler(event: dict, context) -> dict:

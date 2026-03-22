@@ -36,25 +36,25 @@ export function Navbar() {
           </a>
 
           {/* Desktop */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-4">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-white/70 hover:text-white transition-colors"
+                className="text-sm font-medium text-white/70 hover:text-white transition-colors whitespace-nowrap"
               >
                 {link.name}
               </a>
             ))}
             <button
               onClick={() => setIsModalOpen(true)}
-              className="bg-blue-500 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-600 transition-colors"
+              className="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-600 transition-colors whitespace-nowrap"
             >
               Оставить заявку
             </button>
             <a
               href="tel:+79995109840"
-              className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-white/90 transition-colors"
+              className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-white/90 transition-colors whitespace-nowrap"
             >
               Вызвать мастера
             </a>

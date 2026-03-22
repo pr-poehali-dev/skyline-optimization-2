@@ -39,7 +39,7 @@ export function Reviews() {
   }, [])
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="reviews" className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">

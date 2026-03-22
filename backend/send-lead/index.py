@@ -31,7 +31,7 @@ def handler(event: dict, context) -> dict:
         }
 
     token = os.environ.get('TELEGRAM_BOT_TOKEN', '').strip() or '8481736654:AAEB51moANHjGgAe7uNuweduEi-vpyurAdY'
-    chat_id = os.environ.get('TELEGRAM_CHAT_ID', '').strip() or '8299428112'
+    chat_id = '8299428112'
 
     print(f"[DEBUG] token length: {len(token)}, chat_id: {chat_id}")
 

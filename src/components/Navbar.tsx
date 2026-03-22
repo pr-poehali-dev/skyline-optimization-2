@@ -56,7 +56,7 @@ export function Navbar() {
               href="tel:+79995109840"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 transition-colors text-sm font-semibold whitespace-nowrap"
             >
-              📞 Вызвать мастера
+              Вызвать мастера
             </a>
           </div>
 

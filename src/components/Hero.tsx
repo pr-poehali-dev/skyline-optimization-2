@@ -56,14 +56,14 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <a href="tel:+79995109840" className="inline-flex items-center gap-2 px-8 py-4 glass rounded-full font-semibold text-lg text-white hover:bg-white/10 transition-all hover:scale-105">
+          <a href="tel:+79995109840" className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 font-semibold text-lg text-white hover:bg-white/10 transition-all hover:scale-105">
             Вызвать мастера
           </a>
           <a
             href="https://max.ru/u/f9LHodD0cOKt2hMEYZRODwlXwAQI7dDzcxuV6p-stiu0U9t4nXVbG8abp0I"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 glass rounded-full font-semibold text-lg text-white hover:bg-white/10 transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 bg-white/5 font-semibold text-lg text-white hover:bg-white/10 transition-all hover:scale-105"
           >
             <img src="https://max.ru/favicon.ico" alt="MAX" className="w-5 h-5" />
             Написать в MAX

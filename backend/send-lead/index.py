@@ -43,7 +43,7 @@ def handler(event: dict, context) -> dict:
 
     # Получаем chat_id владельца через getUpdates или используем числовой ID
     # Сначала пробуем отправить по номеру телефона через username
-    chat_id = os.environ.get('TELEGRAM_CHAT_ID', '')
+    chat_id = os.environ.get('TELEGRAM_CHAT_ID', '8299428112')
 
     if not chat_id:
         return {
